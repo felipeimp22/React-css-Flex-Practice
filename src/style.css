@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+  }
+  
+  body {
+    margin: 0;
+    font-family: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+.App{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  .Header{
+     width: 100%;
+     height: 42vw;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: black;
+     color: white;
+  }
+  .Header a{
+      justify-content: center;
+      align-items:  center;
+    background-color: #CCC;
+    border-style: hidden;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    text-size-adjust: 5%;
+  
+    width: 10%;
+    height: 2vw;
+    text-decoration: none;
+    opacity: 0.5;
+ }
+ .Header a:hover{
+    box-shadow: 0 0 5px 2px #a3a3a3;
+    opacity: 0.9;
+    cursor: pointer;
+ }
+  .Header img{
+    width: 60%;
+    height: 42vw;
+    opacity: 1;
+ }
+
+ .content{
+     margin-top: -10%;
+     width: 74%;
+     height:  80vw;
+    display: flex;
+
+    flex-direction: column;
+  
+    justify-content: center;
+     
+ }
+
+ .txt{
+    position: absolute;
+    /* bottom: 20px;*/
+    right: 500px; 
+    
+    color: white;
+    padding-left: 10px;
+    padding-right: 400px;
+    opacity: 0.9;
+ }
+ .images{
+    position: relative;
+    display: flex;
+ }
+ .geek{
+    display: flex;
+    justify-content: space-between;
+
+   
+ }
+ .oi{
+    
+    width: 40%;
+    height: 40%;
+ }
+ .oi2{
+    width: 50%;
+    height: 40%
+ }
+
+ .images2{
+     margin-top: -90vh;
+ }
+ .bottom{
+    width: 100%;
+    height: 6vw;
+    display: flex;
+        background-color: black;
+    color: white;
+    }
